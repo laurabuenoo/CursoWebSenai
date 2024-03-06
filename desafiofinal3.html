@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se!</title>
+    <link rel="shortcut icon" href="img/jorge i mateus.jpg">
+</head>
+
+<body>
+    <h3><strong>Formulário para ser sócio</strong>
+    </h3>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="digite seu nome" required>
+
+            <br>
+
+            <label>Data de Nascimento</label>
+            <input type="text" name="nascimento" placeholder="xx/xx/xxxx" required>
+
+            <br>
+
+            <label>Telefone</label>
+            <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+
+            <br>
+
+            <label>CPF</label>
+            <input type="text" name="cpf" placeholder="xxxxxxxxx-xx" required>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+                <label>Endereço</label>
+                <input type="text" name="endereço" placeholder="digite seu endereço" required>
+
+                <br>
+
+                <label>Cidade</label>
+                <input type="text" name="cidade" placeholder="digite sua cidade" required>
+                <br>
+
+                <label>Estado</label>
+                <select name="Estado" required>
+                <option value="">Escolha seu Estado </option>
+                <optgroup label="Estados">
+                    <option value="Minas gerais">Minas gerais
+                    </option>
+                    <option value="Acre">Acre
+                    </option>
+                    <option value="Rio de Janeiro">Rio de Janeiro
+                    </option>
+                    <option value="Amapá">Amapá
+                    </option>
+                </optgroup>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Plano</legend>
+            <label for="">Pro</label>
+        </fieldset>
+    </form>
+</body>
+
+</html>
