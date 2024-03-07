@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se!</title>
-    <link rel="shortcut icon" href="img/jorge i mateus.jpg">
+    <link rel="shortcut icon" href="img/jorge i mateus.jpg"> <!--ícone-->
 </head>
 
 <body>
     <h3><strong>Formulário para ser sócio</strong>
     </h3>
-    <form method="post" action="#">
-        <fieldset>
+    <form method="post" action="#"> <!--formulario-->
+        <fieldset><!--abre outro tópico-->
             <legend>Dados pessoais</legend>
             <label>Nome</label>
             <input type="text" name="nome" placeholder="digite seu nome" required>
@@ -20,17 +20,17 @@
             <br>
 
             <label>Data de Nascimento</label>
-            <input type="text" name="nascimento" placeholder="xx/xx/xxxx" required>
+            <input type="date" name="nascimento" placeholder="xx/xx/xxxx" required>
 
-            <br>
+            <br><!--quebra de linha-->
 
-            <label>Telefone</label>
+            <label>Telefone</label> <!--titulo da fieldset-->
             <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
 
             <br>
 
             <label>CPF</label>
-            <input type="text" name="cpf" placeholder="xxxxxxxxx-xx" required>
+            <input type="number" name="cpf" placeholder="xxxxxxxxx-xx" required>
         </fieldset>
         <fieldset>
             <legend>Endereço</legend>
@@ -59,16 +59,16 @@
                 </select>
         </fieldset>
 
-        <fieldset>
+        <fieldset> <!--abre outro tópico-->
             <legend>Plano de Show</legend>
             <label for="Plano Pro">Pro</label>
-            <input type="radio" name="resposta" id="Plano-pro" value="Pro" checked required>
+            <input type="radio" name="resposta" id="Plano-pro" value="Pro" required>
             <label for="Plano normal">Normal</label>
-            <input type="radio" name="resposta" value="Normal" id="Plano normal" checked required>
+            <input type="radio" name="resposta" value="Normal" id="Plano normal" required>
         </fieldset>
-        <fieldset>
+        <fieldset><!--caixa de sugestão-->
             <legend> Escreva abaixo uma mensagem de amor para <strong>Jorge e Mateus</strong>:</legend>
-            <form method="post" action="#"> <!--caixa de sugestão-->
+            <form method="post" action="#"> 
                 <textarea name="sugestão" style="resize: none;" required="yes" rows="7" cols="50" ></textarea>
                 <br>
                 <button type="submit"> Enviar sugestão</button> </fieldset> <!--botão-->
@@ -81,11 +81,14 @@
                     <label for="checkbox-noticia">Aceito receber notícias</label>
                     <button type="submit">Enviar Termos </button>
     </form>
-    <button type="submit" >Enviar Dados</button>
+
     <hr>
-    <footer align="center">
+    <footer align="center"> <!--rodapé-->
         <small> copyritght 2023- <br>Tec. Multimidia &copy; </small>
-    </footer>
+
+           
+        
+    </footer> <a href="desafiofinal2.html">voltar</a> <!--volta á pag inicial-->
 </body>
 
 </html>
