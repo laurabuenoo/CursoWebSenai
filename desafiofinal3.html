@@ -60,10 +60,32 @@
         </fieldset>
 
         <fieldset>
-            <legend>Plano</legend>
-            <label for="">Pro</label>
+            <legend>Plano de Show</legend>
+            <label for="Plano Pro">Pro</label>
+            <input type="radio" name="resposta" id="Plano-pro" value="Pro" checked required>
+            <label for="Plano normal">Normal</label>
+            <input type="radio" name="resposta" value="Normal" id="Plano normal" checked required>
         </fieldset>
+        <fieldset>
+            <legend> Escreva abaixo uma mensagem de amor para <strong>Jorge e Mateus</strong>:</legend>
+            <form method="post" action="#"> <!--caixa de sugestão-->
+                <textarea name="sugestão" style="resize: none;" required="yes" rows="7" cols="50" ></textarea>
+                <br>
+                <button type="submit"> Enviar sugestão</button> </fieldset> <!--botão-->
+                <fieldset>
+                    <legend>Ternos de política de privacidade</legend>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, possimus! Quod saepe maiores vero quaerat dolores sed, eligendi ab corporis consequatur! Unde dicta id labore, accusamus voluptas impedit repudiandae</p>
+                    <input type="checkbox" id="checkbox-Aceito" name="Termos de política" value="Aceito">
+                    <label for="checkbox-Aceito">Aceito os termos de Política privacidade </label>
+                    <input type="checkbox" id="checkbox-Aceito receber notícias" name="Aceito" value="Aceito">
+                    <label for="checkbox-noticia">Aceito receber notícias</label>
+                    <button type="submit">Enviar Termos </button>
     </form>
+    <button type="submit" >Enviar Dados</button>
+    <hr>
+    <footer align="center">
+        <small> copyritght 2023- <br>Tec. Multimidia &copy; </small>
+    </footer>
 </body>
 
 </html>
