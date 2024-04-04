@@ -1,8 +1,53 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0; padding: 0; background-color: rgb(234, 234, 234);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(234, 234, 234);
 }
-h1{ text-align: center;
-margin-top:50px;
-color: rgb(151, 142, 22);}
-p{color: rgb(50, 50, 50); margin-top: 50px;text-align: center;}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(237, 121, 26);
+}
+
+p {
+    color: rgb(50, 50, 50);
+    margin-top: 50px;
+    text-align: center;
+}
+/*espaçamento*/
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+/*lista de peixes*/
+li {
+    background-color: rgb(95, 30, 208);
+    line-height: 2;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.imagem{
+    text-align: center;
+}
+
+/*tabela*/
+table{
+    width: 100%;
+}
+th{
+    background-color: blueviolet;
+}
+
+tr{
+    color:#fff;
+}
+
+td{
+    color: black; border: 1px solid;padding: 5px;
+}
+
+table{
+    border-color:#f8f8f8;
+}
