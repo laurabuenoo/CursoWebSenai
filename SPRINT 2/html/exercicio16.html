@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Log-In</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: aquamarine;
+            background-image: url(img/verdea.webp) ;
+            margin: 100px;
+        }
+        #principal{
+            width: 40%;
+            height: 300px;
+            background-color: rgb(163, 196, 196);
+            margin: 0 auto;
+            margin-top: 15px;
+            border-radius: 15px;
+            min-width: 400px;
+            max-width: 600px;
+            text-align: center;
+        }
+        #principal img{
+            width: 120px;
+            margin-top: -50px;
+            margin-bottom: 30px;
+        }
+        input{
+            width: 80%;
+            height: 40px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: rgb(218, 233, 246);
+            padding-left: 40px;
+            border: none;
+        }
+        input.email{
+            background-image: url(img/do-utilizador.png);
+            background-repeat: no-repeat;
+            background-position: 10px;
+        }
+        input.senha{
+            background-image: url(img/cadeado-seguro.png);
+            background-repeat: no-repeat;
+            background-position: 10px;
+        }
+        input.submit{
+            color: azure;
+            background-color: aquamarine;
+            border: 2px solid rgb(102, 199, 167);
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <img src="img/iconeeee.webp" alt="">
+        <form method="post" action="#">
+        <div>
+            <input class="email" type="text" name="email" id="email" placeholder="Digite seu E-mail" required >
+        </div>
+        <div>
+            <input  class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha" required >
+        </div>
+        <div>
+            <input class="submit" type="submit" value="Logar">
+        </div>
+    </form>
+    </div>
+</body>
+</html>

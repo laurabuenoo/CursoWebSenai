@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 13</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        main {
+            margin-top: 260px;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.5em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+
+        .menu_top {
+            width: 100%;
+            height: 170px;
+            border-bottom: 3px solid rgb(21, 41, 77);
+            border-top: 10px solid rgb(69, 0, 231);
+            background-color: azure;
+        }
+
+        .top_esp {
+            width: 148px;
+            float: left;
+            padding: 10px;
+        }
+
+        .top_dir {
+            float: left;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 100px;
+            color: rgb(255, 0, 98);
+            padding-left: 35px;
+            padding-top: 20px;
+        }
+
+        .clear{clear: both;}
+
+        .menu_down {
+            background: rgb(69, 0, 231);
+            height: 50px;
+            text-align: center;
+        }
+
+        .clear {
+            clear: both;
+        }
+        
+        .menu{
+            background-color: rgb(13, 161, 199);
+            width: 100%;
+            height: 50px;
+        }
+
+        .menu ul li{
+            background-color: rgb(13, 161, 199);
+            color: white;
+            float: left;
+            width: 150px;
+            height: 40px;
+            display: inline;
+            line-height: 40px;
+            text-align: center;
+            position: static;
+        }
+
+        .menu ul li:hover{
+            background-color: rgb(130, 35, 189);
+            display: block;
+        }
+
+        .menu ul{
+            padding: 0;
+        }
+
+        .menu ul ul{
+            display: none;
+            
+        }
+
+        .menu ul li:hover > ul{
+            display: block;
+        }
+
+        .menu ul ul ul{
+            background-color: green;
+            margin-left: 102px;
+            top: 0px;
+        }
+
+        .menu ul ul li:hover{
+            background-color: rgb(130, 35, 189);
+        }
+
+        .menu ul ul ul li:hover{
+            background-color: rgb(130, 35, 189);
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <div class="menu_top">
+                <div class="top_esp">
+                    <figure>
+                        <img src="img/vetor-de-gradiente-de-logotipo-colorido-de-passaro_343694-1365.avif" alt="logo"
+                            height="140px">
+                    </figure>
+                </div>
+                <div class="top_dir">
+                    PETSHOP COLOR BIRD
+                </div>
+                <div class="clear"></div>
+                <div class="menu_down">
+                    <nav class="menu">
+                       <ul>
+                            <li>HOME</li>
+                            <li>RAÇÃO
+                                <ul>
+                                    <li>GATO</li>
+                                    <li>CAHORRO</li>
+                                    <li>PEIXE</li>
+                                    <li>OUTRO
+                                        <ul>
+                                            <li>AVES</li>
+                                            <li>RÉPTEIS</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>BRIQUEDOS</li>
+                            <li>ROUPAS</li>
+                            <li>BANHO E TOSA</li>
+                       </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="meio">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione culpa temporibus nulla quidem,
+                    laudantium adipisci cupiditate odio aut modi ab expedita corrupti, quibusdam aperiam iusto similique
+                    mollitia. Sunt, commodi repudiandae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                    ipsum quis numquam iusto voluptatibus molestias quaerat vitae error exercitationem, blanditiis
+                    officiis similique sit commodi, cum reiciendis id at nisi vel.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam quod deleniti voluptatibus
+                    officia reiciendis hic suscipit omnis aliquam a, in debitis unde ratione obcaecati optio adipisci
+                    voluptatem sequi magnam!
+                    Laboriosam non eos, excepturi perspiciatis et tenetur ducimus autem dolores corrupti reprehenderit
+                    ex distinctio nulla adipisci. Necessitatibus velit porro eius. Debitis laborum, eius quo quas
+                    ducimus ipsum totam deleniti nihil!
+                    Quia eveniet laudantium modi esse. Fuga perferendis et optio unde aliquam doloribus! Itaque velit
+                    quidem id tenetur, quasi quisquam consequatur at corrupti labore officiis adipisci perferendis
+                    voluptatibus ex debitis quibusdam!
+                    Necessitatibus deleniti pariatur debitis quia optio facere, amet ratione magnam odit nulla aperiam
+                    dolores expedita iure rem, obcaecati molestiae fugit dolore nostrum laboriosam quo soluta velit
+                    ducimus veritatis totam. Rem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed similique quia maiores. Omnis aperiam
+                    velit corrupti excepturi dicta odit facere libero atque iste perspiciatis? Quos ipsa rerum dolor
+                    laudantium laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod debitis dolorum
+                    quas tenetur nam assumenda ipsa odio voluptates! Eum nulla sunt corporis error laudantium?
+                    Consectetur nesciunt officia rerum illum beatae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, tempore nesciunt. Perspiciatis,
+                    consequuntur et ex sint aliquam natus eius nemo aspernatur officiis! Tenetur tempore dolores est
+                    eligendi ab. Numquam, natus.
+                    Voluptatibus ipsam officia numquam eligendi ratione. Doloremque vel consequuntur quasi magnam!
+                    Recusandae nesciunt eum, et consectetur excepturi laboriosam quos adipisci amet, repellat nisi
+                    temporibus architecto! Atque soluta illo repellat architecto.
+                    Eum reiciendis aspernatur vitae asperiores esse rerum, quos libero ea molestias veritatis pariatur
+                    nobis beatae voluptatibus voluptas? Quod cumque veniam quasi eaque, corrupti enim inventore ipsam
+                    quidem, eligendi eum voluptatibus.
+                    Quam sint quo officia deserunt commodi quasi similique iure pariatur eaque illum aspernatur
+                    repellendus inventore corporis non dolor quidem earum nisi nihil, eius ullam. Autem repellat
+                    consectetur non enim quisquam.
+                    Quo possimus ex voluptate vitae aperiam nihil voluptatibus eum atque soluta! Praesentium doloremque
+                    reprehenderit repellendus sit iusto dolore quisquam pariatur voluptates nesciunt sapiente. Dicta
+                    provident harum ullam totam sit iusto!
+                    Doloribus odit esse iste ducimus quas, accusantium beatae distinctio deleniti? Esse corrupti
+                    cupiditate voluptate quas fuga commodi eius totam id officia ipsum vel qui, tempore et adipisci
+                    animi sapiente. Cumque!
+                    Fuga commodi mollitia nam hic ipsum minima rem enim id voluptates iusto, quidem illum odio facere
+                    ratione provident sed reprehenderit quas recusandae unde obcaecati consequuntur architecto assumenda
+                    quam. Nam, iusto?
+                    Ipsam quasi quam autem rerum quo odit harum reiciendis placeat, labore earum quod quidem ratione
+                    eius iure sapiente id blanditiis qui quos delectus ducimus illo minima soluta atque. Aliquid,
+                    consequatur?</p>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+
+</html>
