@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function verificarImparPar (numero) {
+            if (numero % 2 == 0) {
+                return('Par');
+            } else if (numero % 2 == 1) {
+                return ('Impar');
+            } else {
+                return ('numeros invalidados')
+            }
+        }
+
+        var verificar = verificarImparPar(prompt('Digite seu número'));
+        document.write(verificar)
+    </script>
+</body>
+</html>

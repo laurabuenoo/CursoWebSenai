@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var dias = prompt(' quant de dias ');
+        switch (dias) {
+            case '28':
+                document.write('02');
+                break
+            case '30': document.write('04,06,09,11');
+                break
+            case '31':
+                document.write('01,03,05,07,08,10,12')
+                break
+            default:
+                document.write('nao encontrado')
+        }
+    </script>
+</body>
+</html>
