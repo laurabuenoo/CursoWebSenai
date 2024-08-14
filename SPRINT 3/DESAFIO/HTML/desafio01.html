@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <title>Login</title>
+
+    <style>
+        .container {
+            border: 1px black solid;
+            border-radius: 5px;
+            background-color: #fefae0;
+            width: 500px;
+            height: 200px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #formulario {
+            padding: 20px;
+        }
+        #formulario > button {
+            width: 60px;
+            margin-left: 45%;
+            margin-right: 55%;
+            border-radius: 50px;
+            background-color: white;
+        }
+
+        #formulario>button:hover{
+            cursor: pointer;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        function verificarCampos(email, senha) {
+            if (email == 'laura@gmail.com' && senha == "1234Laura") {
+                window.location.href = 'desafio03.html';
+                return false;
+            } else {
+                alert('Dados inseridos estão incorretos!');
+                return false;
+            }
+        }
+    </script>
+
+    <div class="container">
+        <form id="formulario" action="#" method="post" onsubmit="return verificarCampos(document.getElementById('email').value,
+                document.getElementById('senha').value)">
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="email@exemplo.com">
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="senha">
+                </div>
+            </div>
+            <button type="submit">OK!</button>
+        </form>
+    </div>
+</body>
+
+</html>
